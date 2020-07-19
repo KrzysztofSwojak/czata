@@ -43,7 +43,7 @@ $is_admin = $_SESSION['admin'] ?? false;
 	<div class="container-lg">
 	<div class="card">
 		<div class="card-header">
-    			Featured
+    			<h1>Cza -Ta project</h1>
   		</div>
         <?php if (!$is_admin): ?>
 	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Zaloguj</button>
